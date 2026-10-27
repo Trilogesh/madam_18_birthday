@@ -1,0 +1,130 @@
+export interface Poem {
+  id: number;
+  romanId: string;
+  title: string;
+  subtitle: string;
+  stanzas: string[];
+  isTwoParagraphs?: boolean;
+}
+
+export const POEMS: Poem[] = [
+  {
+    id: 1,
+    romanId: 'I',
+    title: 'AN ANGEL AMONG MORTALS',
+    subtitle: 'For Madamm · Poem I of VII',
+    stanzas: [
+      `There is a grace in thy presence, dear,\nA quiet charm that draws me near;\nA loveliness in all you do,\nThat makes the world seem touched by you.`,
+      `And oh, thy hair, those lovely strands,\nCould steal the heart from mortal hands;\nA beauty heaven might have known,\nYet here on earth, in you, has grown.`,
+      `For sometimes, when I look at thee,\nAn angel is all my eyes can see;\nAs though the heavens, in secret art,\nHad sent their fairest to claim my heart.`,
+      `I know not how, nor can I explain,\nWhy thoughts of you return again;\nWhat spell you hold, what power you do—\nI only know I'm drawn to you.`,
+      `And if this feeling has no name,\nStill I would feel it just the same;\nFor all the charms this world can give,\nIt is your presence I long to relive.`,
+    ],
+  },
+  {
+    id: 2,
+    romanId: 'II',
+    title: 'A HEART THAT FELL BEYOND ITS DEPTH',
+    subtitle: 'For Madamm · Poem II of VII',
+    stanzas: [
+      `Somehow, my heart fell far too deep,\nBeyond the bounds it once could keep;\nA feeling unlike all I've known,\nA path my heart had never shown.`,
+      `For never once in all my days\nHad love consumed me in such ways;\nYou came to mean more than I knew,\nAnd somehow, I fell hard for you.`,
+      `And if there is a gift to bless,\nIt is your place in my happiness;\nFor having someone rare as you\nFeels like a blessing, pure and true.`,
+      `I shall not treat your love as small,\nNor take your presence as mine to call;\nFor precious things deserve to be\nHeld close with care and honesty.`,
+      `And if my life has years to spend,\nMy love for you shall not pretend;\nWhile breath remains within my chest,\nI'll love you, Madamm, with my best.`,
+      `No passing day shall make me blind\nTo this rare blessing I was blessed to find;\nAnd till the final breath is through,\nI'll stand beside you, loving you.`,
+    ],
+  },
+  {
+    id: 3,
+    romanId: 'III',
+    title: 'IF YOUR BURDENS WERE MINE TO BEAR',
+    subtitle: 'For Madamm · Poem III of VII',
+    stanzas: [
+      `In a world that teaches hearts to hide,\nTo lock their deepest feels inside,\nWhere being tender is called a flaw,\nAnd tears are things none ought to draw—`,
+      `There stands my Madamm, feeling all,\nWho hears the heart behind each call;\nWho feels so deeply, cares so true,\nWith all that tenderness within you.`,
+      `And oh, the things you bear each day,\nThe difficult roads you walk your way;\nI know they are no little things,\nNor all the weight that silence brings.`,
+      `Perhaps you bear them on your own,\nAnd hide your troubles, pain unknown;\nPerhaps you fear that those you love\nHave burdens enough they bear thereof.`,
+      `But, Madamm, please, don't think that way—\nYou need not face it all alone;\nI'd rather sit beside you there\nThan let you think no heart would care.`,
+      `If I could take your hurt away,\nAnd trade your darkest nights for day,\nI'd wish to lift what makes you fall\nAnd give you joy instead of all—`,
+      `The happiness your heart deserves,\nThe gentleness the world preserves\nFor those who feel and care so deep,\nWhose tender hearts are theirs to keep.`,
+      `Yet tell me, love, what can I do?\nWhat path can lead to joy for you?\nWhat must I give, what can I bear,\nTo bring more light into your share?`,
+      `Just tell me, Madamm, what to do—\nWhat can I change or carry for you?\nOrder me, Madamm; tell me how—\nI'll do it for you, starting now.`,
+    ],
+  },
+  {
+    id: 4,
+    romanId: 'IV',
+    title: 'THE SILENCE WHERE YOU SHOULD BE',
+    subtitle: 'For Madamm · Poem IV of VII',
+    stanzas: [
+      `There are some feelings words cannot hold,\n\nSome fears the heart cannot unfold;\n\nAnd losing you is one of those—\n\nA pain my tongue has never known.`,
+      `For when, for reasons, we grow apart,\n\nSomething falls silent within my heart;\n\nThe days go on, the hours pass by,\n\nYet something feels wrong, and I know not why.`,
+      `The world remains as it has been,\n\nThe same old places, the same old scenes;\n\nYet nothing feels the way it should,\n\nAs though something precious has left my world.`,
+      `It isn't that the world has ceased,\n\nNor that each moment has lost its peace;\n\nIt's just that something isn't there—\n\nSomething I cannot see, but feel everywhere.`,
+      `And sometimes I wonder, through all this time,\n\nHow life was once yours and mine—\n\nBefore your voice became my peace,\n\nBefore your presence made my worries cease.`,
+      `I try to picture those days gone by,\n\nThe life I lived before you arrived;\n\nBut somehow, the further back I go,\n\nThe less of that life I seem to know.`,
+      `And that is what frightens me, my dear—\n\nThe thought of a world where you aren't near;\n\nOf waking one day to a life the same,\n\nYet never again hearing you call my name.`,
+      `I fear the silence, the empty space,\n\nThe thought of no longer finding your face;\n\nOf all the little things we used to do,\n\nBecoming memories I cannot return to.`,
+      `But listen, Madamm, there's something more,\n\nSomething deeper than the fear I carry in store;\n\nFor though I fear the darkness you might leave,\n\nThat isn't the reason my heart believes.`,
+      `I do not love you just because\n\nLife without you might lose its stars;\n\nNor merely because you make me whole,\n\nOr bring a little light into my soul.`,
+      `I cannot tell you why it's true,\n\nOr name the spell that leads me to you;\n\nI only know, through all I've been through,\n\nMy heart keeps finding its way to you.`,
+      `No reason summoned this love to stay,\n\nNo careful choice made it grow this way;\n\nIt came on its own, without asking me,\n\nAnd became a part of all I could be.`,
+      `And nothing I hear, and nothing I learn,\n\nCan simply command this feeling to turn;\n\nI cannot switch off what I never planned—\n\nThis love that arose without my command.`,
+      `So if you ask why I love you, dear,\n\nI may have no answer that makes it clear;\n\nI only know, through whatever I do,\n\nI love you, Madamm—and I don't know how not to.`,
+    ],
+  },
+  {
+    id: 5,
+    romanId: 'V',
+    title: 'THE MOON THAT ENVIES YOU',
+    subtitle: 'For Madamm · Poem V of VII',
+    stanzas: [
+      `What beauty walks this earth in thee,\nThat even angels turn to see?\nThe moon grows pale against thy light,\nAnd envies thee throughout the night.`,
+      `For she must borrow from the sun\nThe golden rays that make her shine;\nYet thou, my love, needst borrow none—\nThy light is wholly, purely thine.`,
+      `The stars may scatter through the skies,\nYet none could rival thy lovely eyes;\nAnd if the heavens should ask me why,\nI'd point to thee and let them try.`,
+      `For what are stars, and what is gold,\nBeside the grace thy heart doth hold?\nWhat is the moon's most silver art,\nCompared with the light within thy heart?`,
+      `Ah, Madamm, if my words could show\nThe depth to which my feelings go,\nI'd write thy name on every star\nAnd let the heavens know who you are.`,
+      `If every path that thou hast crossed\nCould tell the tale of all I've lost—\nMy peace, my sleep, my guarded heart—\nThey'd know how love has claimed each part.`,
+      `And if I could, I'd kiss the ground\nWhere once thy gentle steps were found;\nNot for the earth, nor dust, nor stone,\nBut for the path that knew thy own.`,
+      `For love hath made the ordinary divine,\nAnd made thy smallest traces shine;\nThe world sees roads where footsteps fall—\nI see the paths that held you all.`,
+      `And should the moon descend one night\nTo ask me where I find such light,\nI'd smile and tell her, soft and true:\n\nThe moon may shine, but I have you.`,
+      `So let the angels envy thee,\nLet stars bow down in secrecy;\nFor all the wonders heaven can do,\nNone holds the place I hold for you.`,
+      `And if you ask what makes this true,\nWhat spell has drawn my heart to you—\nNo grand design, no reason planned;\n\nI simply fell, and here I stand.`,
+      `My Madamm, if the world could see\nThe loveliness you are to me,\nPerhaps they'd understand it too—\n\nBut even then, they'd never see\nThe whole of what I see in you.`,
+    ],
+  },
+  {
+    id: 6,
+    romanId: 'VI',
+    title: 'WHEN ALL THE SEASONS CHANGE',
+    subtitle: 'For Madamm · Poem VI of VII',
+    stanzas: [
+      `If time should change the world we know,\nAnd years should teach the flowers not to grow,\nIf summer's warmth should turn to winter's rain,\nI'd choose your hand through sunshine and through pain.`,
+      `If youth should leave its golden hue,\nAnd time should paint the skies a different blue,\nIf mirrors show us faces changed by years,\nI'd still see you through all the passing tears.`,
+      `For I have never loved a passing day,\nNor loved you only when the skies are grey;\nI do not love you for a moment's grace—\nI love the soul that lives beneath your face.`,
+      `And if the world should weigh upon your heart,\nIf life should pull our days and nights apart,\nYou need not hide the tears you cannot show;\nI'd sit beside you through the undertow.`,
+      `I cannot promise skies will always clear,\nOr that I'll never have to fight my fear;\nBut I can promise, when the nights are long,\nI'll try to be the place where you belong.`,
+      `And, Madamm, when you feel you must be strong,\nWhen you have carried pain for far too long,\nYou need not always stand and face it all;\nYou have a heart that, too, deserves to fall—`,
+      `Not fall apart, but fall into a place\nWhere you can breathe, and rest, and feel embraced;\nWhere you can set the weight you've held inside,\nAnd know there's someone standing by your side.`,
+      `I wish I could take every hurt away,\nTurn all your darkest nights to brighter days;\nBut love cannot command the clouds to part—\nIt only offers shelter to a heart.`,
+      `So if I cannot heal each wound you bear,\nI'll listen, love, and meet you there;\nFor sometimes love is not a grand display—\nIt's choosing you in quiet ways each day.`,
+      `And if the years should carry us afar,\nIf distance stands between us like a wall of stars,\nRemember this, wherever you may be:\nYou once made home feel closer here to me.`,
+      `I cannot tell what time will make of us,\nWhat roads we'll walk, what changes come to pass;\nBut should the seasons turn a thousand times,\nI'll still be grateful that your life touched mine.`,
+      `For I loved you before I understood,\nBefore I knew a heart could feel this much;\nAnd though I cannot say just why it's true,\nThere's something in me that keeps choosing you.`,
+      `Not simply 'cause the world feels dark alone,\nNor just because you've made my heart your home;\nBut for a reason words can never prove—\nI cannot fully explain it. I just love you.`,
+      `So let the seasons come, let years unfold,\nLet silver find the hair we once called gold;\nWhatever time may change, whatever we go through—\n\nMy dearest Madamm, I'll keep choosing you.`,
+    ],
+  },
+  {
+    id: 7,
+    romanId: 'VII',
+    title: 'WHERE THE ROSES TURN',
+    subtitle: 'For Madamm · Poem VII of VII',
+    isTwoParagraphs: true,
+    stanzas: [
+      `My Madamm, if I could choose a place for you, I'd build a spring where roses bloom anew, where golden mornings kiss your face, and every tomorrow feels like a softer place. I'd hold your hand beneath skies of blue, and spend a thousand lifetimes loving you; for what is a garden, however wide, if I cannot share its flowers by your side?`,
+      `And if a rose still dreams of sunlight from a sky now far away, I'll never blame its petals for the way they turn that way. I'll simply let my garden bloom, keep one warm light beside the door—and hope one day the rose discovers it needn't search the skies anymore.`,
+    ],
+  },
+];

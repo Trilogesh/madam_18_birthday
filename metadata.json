@@ -1,0 +1,6 @@
+{
+  "name": "Madamm's Birthday Universe",
+  "description": "A magical, cinematic, romantic birthday universe crafted with love for Madamm.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

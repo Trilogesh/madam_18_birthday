@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-display: "Cinzel", "Cormorant Garamond", serif;
+  --font-handwriting: "Caveat", "Marck Script", cursive;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-midnight: #030712;
+  --color-twilight: #0a1128;
+  --color-star-gold: #fbbf24;
+  --color-parchment: #fdfbf7;
+  --color-parchment-border: #e7dfd5;
+}
+
+/* Custom delicate scrollbars for antique parchment and poems */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(10, 17, 40, 0.4);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(251, 191, 36, 0.25);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(251, 191, 36, 0.45);
+}
+
+/* Parchment text paper feel */
+.parchment-paper {
+  background-color: #fbf8f1;
+  background-image: 
+    radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.7) 0%, rgba(245, 237, 222, 0.95) 100%),
+    radial-gradient(circle at 20% 20%, rgba(217, 180, 110, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 80% 80%, rgba(180, 140, 80, 0.08) 0%, transparent 50%);
+  box-shadow: 
+    0 10px 30px -5px rgba(0, 0, 0, 0.6),
+    0 0 0 1px rgba(180, 150, 100, 0.35),
+    inset 0 0 40px rgba(195, 160, 110, 0.15);
+}
+
+.dark-parchment-paper {
+  background-color: #0b1120;
+  background-image: 
+    radial-gradient(circle at 50% 20%, rgba(30, 41, 59, 0.5) 0%, rgba(11, 17, 32, 0.95) 100%),
+    radial-gradient(circle at 80% 90%, rgba(251, 191, 36, 0.04) 0%, transparent 50%);
+  box-shadow: 
+    0 15px 40px -10px rgba(0, 0, 0, 0.8),
+    0 0 0 1px rgba(251, 191, 36, 0.2),
+    inset 0 0 60px rgba(0, 0, 0, 0.4);
+}
+
+@keyframes gentlePulse {
+  0%, 100% { transform: scale(1); opacity: 0.9; }
+  50% { transform: scale(1.08); opacity: 1; filter: drop-shadow(0 0 16px rgba(251, 191, 36, 0.8)); }
+}
+
+.star-flicker {
+  animation: gentlePulse 3.5s ease-in-out infinite;
+}
+
+@keyframes floatMote {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(1.5deg); }
+}
+
+.float-subtle {
+  animation: floatMote 6s ease-in-out infinite;
+}
